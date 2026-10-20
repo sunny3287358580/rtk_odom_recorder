@@ -1,0 +1,17 @@
+rtk_odom_recorder:
+  ros__parameters:
+    odom_topic: /lio/robo/odom
+    rtk_fix_topic: /rtk/fix
+    rtk_heading_topic: /rtk/heading
+    save_interval_sec: 1.0
+    rtk_min_status: 2
+    origin:
+      latitude: 39.95853402316
+      longitude: 116.31780058726
+      altitude: 39.9461
+    alignment:
+      enabled: false
+      yaw_rad: 0.0
+      tx: 0.0
+      ty: 0.0
+      tz: 0.0

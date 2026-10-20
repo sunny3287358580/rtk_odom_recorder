@@ -1,0 +1,8 @@
+rtk_odom_recorder:
+  ros__parameters:
+    alignment:
+      enabled: false
+      yaw_rad: 0.0
+      tx: 0.0
+      ty: 0.0
+      tz: 0.0
